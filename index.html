@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apple Watch Animation</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Light grey background -->
+    <div id="background-layer"></div>
+
+    <!-- Navigation bar -->
+    <div id="navbar">
+        <a href="#" class="nav-link">Home</a>
+        <a href="#" class="nav-link">Phones</a>
+        <a href="#" class="nav-link">Tablets</a>
+        <a href="#" class="nav-link">Laptops</a>
+        <a href="#" class="nav-link">Headphones</a>
+        <a href="#" class="nav-link">Support</a>
+        <a href="#" class="nav-link"><i class="fas fa-search"></i></a> <!-- Search button -->
+        <a href="#" class="nav-link"><i class="fas fa-shopping-basket"></i></a> <!-- Basket button -->
+    </div>
+    
+    <!-- Background video -->
+    <video id="background-video" autoplay muted>
+        <source src="0001-0065.mp4" type="video/mp4">
+    </video>
+    
+    <!-- Scrolling text -->
+    <div id="scroll-text">
+        <span class="featured-text">Featured</span> <!-- New Featured text -->
+        <span class="text-line-1">Apple Watch</span>
+        <span class="text-line-2">Series 7</span>
+    </div>
+    
+    <!-- Call to action container -->
+    <div id="cta-container">
+        <div id="cta-text">
+            <span class="cta-info">From </span>
+            <span class="cta-info strike">£499</span>
+            <span class="cta-info sale">£399</span>
+        </div>
+        <div id="buy-box">
+            <span class="buy-text">Buy</span>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
